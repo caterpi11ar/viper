@@ -1,9 +1,9 @@
 {
-  "name": "hearthstone-idleness",
+  "name": "idleness",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.27.0",
-  "description": "基于Overwolf的炉石传说自动化框架",
+  "description": "基于 RSS + MCP 的自动化内容运营框架",
   "author": {
     "name": "caterpi11ar",
     "email": "daiqin1046@gmail.com"
@@ -20,6 +20,9 @@
     "prepare": "husky",
     "lint:fix": "eslint --ext .ts --fix  --cache .",
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "rsshub": "1.0.0-master.07cd821"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.2.0",

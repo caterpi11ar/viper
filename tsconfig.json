@@ -11,7 +11,7 @@
     "moduleDetection": "force",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "paths": {
       "@/": ["./src/"]
     },
