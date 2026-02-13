@@ -2,7 +2,6 @@
   "name": "viper",
   "type": "module",
   "version": "0.1.0",
-  "private": true,
   "packageManager": "pnpm@10.27.0",
   "description": "Minimal Viper-inspired configuration library for TypeScript, powered by Zod and JSON5",
   "author": {
